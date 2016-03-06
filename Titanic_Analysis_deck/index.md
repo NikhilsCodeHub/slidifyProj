@@ -92,8 +92,8 @@ Confusion Matrix and Statistics
 Prediction   0   1
          0 521 130
          1  28 212
-                                         
-         Accuracy : 0.8227 
+
+         Accuracy : 0.8227
 ```
           
 
@@ -114,8 +114,8 @@ Confusion Matrix and Statistics
 Prediction   0   1
          0 526  77
          1  23 265
-                                          
-         Accuracy : 0.8878 
+
+        Accuracy : 0.8878
 ```
 
 

@@ -63,15 +63,15 @@ rpart(formula = as.factor(Survived)~Sex+Parch+SibSp+Pclass+Fare+Embarked,data = 
 
 ```
 
-```{r eval=FALSE, tidy=TRUE}
+```{r eval=FALSE, message=FALSE, warning=FALSE, tidy=TRUE}
 Confusion Matrix and Statistics
 
           Reference
 Prediction   0   1
          0 521 130
          1  28 212
-                                         
-         Accuracy : 0.8227 
+
+         Accuracy : 0.8227
 ```
           
 
@@ -82,15 +82,15 @@ Prediction   0   1
 randomForest(formula = as.factor(Survived)~Sex+Parch+SibSp+Pclass+Fare+Embarked,data = dtrain, mtry = 5, nodesize = 10, ntree=500, na.action= na.exclude)
 ```
 
-```{r eval=FALSE, tidy=TRUE}
+```{r eval=FALSE, message=FALSE, warning=FALSE, tidy=TRUE}
 Confusion Matrix and Statistics
 
           Reference
 Prediction   0   1
          0 526  77
          1  23 265
-                                          
-         Accuracy : 0.8878 
+
+        Accuracy : 0.8878
 ```
 
 
